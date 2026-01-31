@@ -114,6 +114,16 @@ Please see the [Deliverables Checklist](/team-submissions/README.md) in the team
 * CODA [Demo](https://youtu.be/MocBUZlQlmU?si=c2GXTKb1dosla4PW)
 * CODA [MCP](https://pypi.org/project/coda-mcp/)
 
+### Vibe Coding Tips
+* Implement verification tests as part of your workflow (e.g., [unittests](https://docs.python.org/3/library/unittest.html), [pytest](https://docs.pytest.org/en/stable/)
+
+* Introduce context into your prompting (e.g., [context7](https://context7.com), agent skills (`skills.md`), MCP, etc.)
+
+* Use different [prompting strategies](https://www.promptingguide.ai/techniques)
+
+* Keep prompts short; open up new chats occassionally to avoid the context window getting too large
+* Meta vibe code. Take some pulse checks occassinoally as you're working by feeding your session back into an agent and ask them how you could improve your prompting.
+
 ## Accessing Material Post Challenge
 
 Challenge materials can be accessed via https://account-v2.qbraid.com/ or in the coming weeks through https://account.qbraid.com/ once v2 is merged into the main platform.
