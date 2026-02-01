@@ -19,6 +19,11 @@ are used to seed the initial population of a classical MTS optimizer.
 - Successful sampling
 - End-to-end execution through the notebook Self-Validation section
 
+##Verification Strategy
+- Verify CUDA-Q kernel compiles and samples successfully
+- Run end-to-end notebook without errors
+- Use small-N sanity checks and symmetry reasoning from tutorial
+
 ## Future Work
 - Improve cost Hamiltonian fidelity
 - Increase circuit depth and parameter optimization
